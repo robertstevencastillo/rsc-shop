@@ -102,8 +102,8 @@ const App = () => {
               </li>
 
               <li className="request-product-nav-link-li text-lg">
-                <Link className="link" to={"/request-product"}>
-                  Request Product
+                <Link className="link" to={"/add-product"}>
+                  Add Product
                 </Link>
               </li>
               <li className="products-list-nav-link-li text-lg">
@@ -129,7 +129,7 @@ const App = () => {
           <main>
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route path="/request-product" render={({ history }) => <RequestProduct categories={categories} addProduct={addProduct} history={history} />} />
+              <Route path="/add-product" render={({ history }) => <RequestProduct categories={categories} addProduct={addProduct} history={history} />} />
               <Route path="/products-list" render={({ history }) => <ProductsList categories={categories} products={products} history={history} />} />
               <Route path="/product/:url_slug" render={({ history, match }) => <Product product={products.find(p => p.url_slug === match.params.url_slug)} addToCart={addToCart} history={history} />} />
               <Route path="/contact" component={Contact} />
