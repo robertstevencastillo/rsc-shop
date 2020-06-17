@@ -6,4 +6,7 @@ This project was my first attempt at creating a simple React ecommerce app. This
 
 The app can be used at: [https://rsc-shop-site.netlify.app/](https://rsc-shop-site.netlify.app/)
 
-A simple transaction demo - ![Rsc Shop demo 1](demo/simple_transaction_productslist.gif)
+Demoing A simple transaction demo ![Rsc Shop demo 1 - transaction product list](demo/simple_transaction_productslist.gif)
+
+Demoing the "add product" feature. This page takes in details about a particular product, and adds it to the appropriate category in the product list page.
+![Rsc Shop demo 2 - Add product feature](demo/add_product.gif)
