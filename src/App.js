@@ -145,19 +145,3 @@ const App = () => {
 };
 
 export default App;
-
-/*
-Setup a react app
-https://community.c9.io/t/how-to-setup-react-app/16915 
-*/
-
-/*React Stripe - https://www.npmjs.com/package/react-stripe-checkout 
-Test Keys
-
-Publishable key
-pk_test_gDsfi4ddb8S9fgEMcrKSvZWs007QpLc9HQ
-
-Secret key
-sk_test_3vImcit8VAnmnyPzkIpjYxFJ00rGHyKWvL
-
-*/
