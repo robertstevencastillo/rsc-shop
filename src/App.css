@@ -1,33 +1,104 @@
-.App {
+.app {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+.app-store-title h1 {
+  letter-spacing: 0.025em;
   text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "Lemonada", cursive;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.site-flex-container {
+  flex: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*Link Styles */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.link {
+  position: relative;
+}
+
+.link:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: black;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
+}
+
+.link:hover:after {
+  width: 100%;
+  left: 0;
+  background: black;
+}
+
+/* End Link Styles */
+
+/*Navbar */
+
+nav {
+  height: 9rem;
+  border-bottom: solid 1.5px #22292f;
   display: flex;
-  flex-direction: column;
+  /*Center the UL to be vertically and horinzontally centered  */
   align-items: center;
+  /*Handles vertical alignment - cross axis*/
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /*handles horinztal alignment - main axis */
 }
 
-.App-link {
-  color: #61dafb;
+nav ul {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+nav ul .home-nav-link-li,
+nav ul .request-product-nav-link-li,
+nav ul .products-list-nav-link-li,
+nav ul .contact-nav-link-li {
+  flex: 1;
+}
+
+nav ul .cart-nav-link-li {
+  margin-left: auto;
+  margin-bottom: 1rem;
+}
+
+/*End Navbar */
+
+/*Footer */
+
+/*End Footer */
+
+/*Media Queries */
+
+@media screen and (max-width: 500px) {
+  nav {
+    border-bottom: none;
   }
-  to {
-    transform: rotate(360deg);
+  nav ul {
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    border-bottom: solid 1.5px #22292f;
   }
 }

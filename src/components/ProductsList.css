@@ -1,0 +1,40 @@
+.products {
+  margin-bottom: -3rem;
+}
+
+.products-listing-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 20rem;
+  flex: 1;
+}
+
+.product-listing {
+  padding: 10px;
+}
+
+.product-listing:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  border: solid 0.4px grey;
+}
+
+@media screen and (max-width: 600px) {
+  .products {
+    margin-top: 10rem;
+    margin-bottom: -16rem;
+  }
+}
+
+/*
+@media screen and (max-width: 550px) {
+  .products {
+    margin-top: 10rem;
+    margin-bottom: -15rem;
+  }
+} */

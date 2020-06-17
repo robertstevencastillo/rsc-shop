@@ -1,0 +1,7 @@
+.root {
+  /*Using Flexbox */
+  flex: 1;
+
+  /*flex property is shorthand for flex-grow, flex-shrink and flex-basis. The second and third parameters (flex-shrink and flex-basis) are optional. 
+  Setting the flex-grow property to 1 makes the child to receive the specified proportion of the free space in the flex container. */
+}

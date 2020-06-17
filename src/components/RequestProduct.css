@@ -1,0 +1,57 @@
+.request-product-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-field-container {
+  display: block;
+  padding: 50px;
+  font-size: 1.5rem;
+}
+
+.input-field {
+  border: solid 1px black;
+}
+
+input,
+textarea {
+  padding: 20px;
+  vertical-align: middle;
+}
+
+label {
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.button {
+  background-color: #2c3e50;
+  color: white;
+  font-size: 1.5rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 500px) {
+  .request-product-form {
+    margin-top: 7rem;
+    margin-bottom: -14rem;
+    width: 100%;
+  }
+
+  .form-field-container {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .form-field-container input {
+    width: 100%;
+  }
+}

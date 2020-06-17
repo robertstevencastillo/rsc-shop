@@ -1,0 +1,71 @@
+/*CSS RESET BEGIN */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  letter-spacing: 0.1em;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  font-family: "ITC Avant Garde Gothic", sans-serif;
+  height: 100%;
+  width: 100%;
+
+  /*Trying to keep footer at the bottom. Set body position as relative, and footer position as absolute, bottom:0*/
+  /*position: relative;*/
+  /*Using Flexbox - Works Great*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS RESET END */

@@ -1,0 +1,93 @@
+{
+  "products": [
+    {
+      "name": "Pipeline Slim-Fit MaxFlex Jeans",
+      "img": "https://media.kohlsimg.com/is/image/kohls/2200164_Jade_Indigo?wid=500&hei=500&op_sharpen=1",
+      "product_link": "https://www.kohls.com/product/prd-2200164/urban-pipeline-slim-fit-jeans-men.jsp",
+      "price": "24.99",
+      "avg_rating": "4.2",
+      "product_desc": "Don't settle for ordinary. These men's Urban Pipeline slim-fit jeans are a cut above the rest.",
+      "category": "jeans",
+      "url_slug": "pipeline-slim-fit-maxflex-jeans"
+    },
+    {
+      "name": "511 Slim Fit Stretch Jeans",
+      "img": "https://media.kohlsimg.com/is/image/kohls/323407_Black_Stretch?wid=500&hei=500&op_sharpen=1",
+      "product_link": "https://www.kohls.com/product/prd-323407/levis-511-slim-jeans-men.jsp",
+      "price": "69.99",
+      "avg_rating": "4.1",
+      "product_desc": "A modern slim with room to move, the 511 Slim Fit Jeans are a classic. Cut close to the body, these jeans are a great alternative to a skinny jean. You'll get the same lean look with added comfort.",
+      "category": "jeans",
+      "url_slug": "511-slim-fit-stretch-jeans"
+    },
+    {
+      "name": "Pipeline Slim Straight Leg Jeans",
+      "img": "https://media.kohlsimg.com/is/image/kohls/2575304_Black?wid=500&hei=500&op_sharpen=1",
+      "product_link": "https://www.kohls.com/product/prd-2575304/mens-urban-pipeline-slim-fit-straight-leg-jeans.jsp",
+      "price": "24.99",
+      "avg_rating": "4.4",
+      "product_desc": "Every casual occasion calls for these men's Urban Pipeline jeans.",
+      "category": "jeans",
+      "url_slug": "pipeline-slim-straight-leg-jeans"
+    },
+    {
+      "name": "Chaps Straight Fit Stretch Jeans",
+      "img": "https://media.kohlsimg.com/is/image/kohls/3280046?wid=500&hei=500&op_sharpen=1",
+      "product_link": "https://www.kohls.com/product/prd-3280046/mens-chaps-straight-fit-stretch-jeans.jsp",
+      "price": "35.99",
+      "avg_rating": "4.5",
+      "product_desc": "Always ahead of the curve. These men's jeans from Chaps feature styling that takes your look to a new level.",
+      "category": "jeans",
+      "url_slug": "chaps-straight-fit-stretch-jeans"
+    },
+    {
+      "name": "Nike Dri FIT Training Tee",
+      "img": "https://media.kohlsimg.com/is/image/kohls/3391776_Birch_Heather?wid=500&hei=500&op_sharpen=1",
+      "product_link": "https://www.kohls.com/product/prd-3391776/mens-nike-fri-fit-logo-performance-tee.jsp",
+      "price": "19.99",
+      "avg_rating": "4.9",
+      "product_desc": "No matter what you're training for, this men's Nike tee is a comfy choice.",
+      "category": "tops",
+      "url_slug": "nike-dri-fit-training-tee"
+    },
+    {
+      "name": "Nike Camo Pullover Hoodie",
+      "img": "https://media.kohlsimg.com/is/image/kohls/3383523_Midnight_Navy?wid=500&hei=500&op_sharpen=1",
+      "product_link": "https://www.kohls.com/product/prd-3383523/mens-nike-camouflage-pullover-hoodie.jsp",
+      "price": "49.99",
+      "avg_rating": "4.2",
+      "product_desc": "You'll blend right in comfortably in this men's Nike pullover hoodie.",
+      "category": "tops",
+      "url_slug": "nike-camo-pullover-hoodie"
+    },
+    {
+      "name": "Nike Full Zip Jersey Hoodie",
+      "img": "https://media.kohlsimg.com/is/image/kohls/3523550_Dark_Gray_Heather?wid=500&hei=500&op_sharpen=1",
+      "product_link": "https://www.kohls.com/product/prd-3523550/mens-nike-full-zip-jersey-hoodie.jsp",
+      "price": "44.99",
+      "avg_rating": "4.9",
+      "product_desc": "Add an extra layer of comfort to your everyday look with this men's Nike hoodie.",
+      "category": "tops",
+      "url_slug": "nike-full-zip-jersey-hoodie"
+    },
+    {
+      "name": "Nike Blade Regular Golf Polo",
+      "img": "https://media.kohlsimg.com/is/image/kohls/3267530_Obsidian?wid=500&hei=500&op_sharpen=1",
+      "product_link": "https://www.kohls.com/product/prd-3267530/mens-nike-dry-blade-regular-fit-golf-polo.jsp",
+      "price": "55.99",
+      "avg_rating": "4.8",
+      "product_desc": "Fairway fashion. Featuring a moisture-wicking fabric and sporty style, this men's polo from Nike keeps you comfortable and stylish from tee to green.",
+      "category": "tops",
+      "url_slug": "nike-blade-regular-golf-polo"
+    }
+  ],
+  "categories": [
+    "jeans",
+    "tops",
+    "shoes",
+    "hats",
+    "socks",
+    "accessories",
+    "jewelry"
+  ]
+}
