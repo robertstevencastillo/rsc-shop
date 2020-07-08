@@ -17,7 +17,7 @@ const Home = props => {
           <ul>
             <li>
               <a target="_blank" rel="noopener noreferrer" href="https://cordmagazine.com/fashion/top-ten-best-selling-clothing-fashion-brands-world/">
-                <img alt="polo-ralph-lauren" src="https://imgix.ranker.com/user_node_img/92/1820472/original/polo-ralph-lauren-companies-photo-u13?w=87&h=87&fit=crop&crop=faces&q=60&fm=pjpg" />
+                <img alt="polo-ralph-lauren" src="https://corporate.ralphlauren.com/on/demandware.static/-/Sites-RalphLauren_Corporate-Library/default/dw90e12bbe/assets/images/PRESS_RELEASES/081219_PoloDenim.jpg" />
               </a>
               <p className="text-lg">The best clothing brand?</p>
             </li>
